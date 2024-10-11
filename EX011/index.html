@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Videos localmente</h1>
+    <p>Este video está hospedado no meu proprio servidor</p>
+
+    
+
+    <video width="426px" height="240px" poster="rsc/poster.jpg" controls >
+        <source src="media/carcara.mp4">
+    </video>
+    
+    <hr>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=-79nePVRbhpScI72" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+
+    <hr>
+    <h1>Reprouzindo audios</h1>
+    <audio src="media/buzina.mp3" controls></audio>
+    <audio preload="metadata" controls>
+        <source src="media/Rick and Morty.ogg" type="audio/ogg">
+    </audio>
+    
+    <hr>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+
+        <source media="(max-width: 750px)" srcset="rsc/pequeno.jpg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="rsc/medio.jpg" type="image/png">
+        <img src="rsc/grande.jpg" alt="Imagem flexível">
+    </picture>
+    
+
+
+    
+</body>
+</html>
